@@ -62,11 +62,53 @@ h2{
     text-align: center;
     padding-left: 20px;
 }
-.recepie{
-    width: 40%;
-    margin-left: 5% ;
-    margin-right: 5%;
-    box-shadow: 10px 10px 40px gray;
-    padding-left: 20px;
-    border-radius: 5px;
+ #recepies{
+     margin-bottom: 60px;
+ }
+.recepies-text{
+    width: 65%;
+    text-align:center ;
+    margin:auto ;
+
+}
+.recepies-text h1{
+    color: crimson;
+}
+.recepies-text p{
+    color: cadetblue;
+    font-size: 20 px;
+}
+
+.not{
+    display: flex;
+    margin: 0 auto;
+}
+.menu-item{
+    width: 25%;
+    margin: 20px 20px;
+    padding: 60px;
+    box-shadow: 0 0 10px 0 black;
+    border-radius: 10px;
+}
+.item-img{
+    width: 100%;
+}
+.menu-item p{
+    font-size: 18px;
+    color: rgb(117, 106, 106);
+    line-height: 1.5;
+}
+#footer{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 250px;
+    padding-top: 30px;
+}
+#footer p{
+    color: rgb(166, 192, 140);
+    font-size: 20px;
+}
+#footer span{
+    color: rgb( 238, 45, 45);
 }
