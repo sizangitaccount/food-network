@@ -3,6 +3,36 @@ body{
     margin: 0%;
 }
 
+#navigation{
+    overflow:hidden;
+    color:rgb(248, 248, 248);
+    background-image:linear-gradient(to left, rgb(179, 74, 32),rgb(4, 8, 4));
+    width:100%;
+    border-radius:3px;
+    margin:0px;
+}
+#navigation #home{
+    background-image:linear-gradient(to right, #fd9308,rgb(184, 202, 153));
+    color: white;
+
+
+}
+
+#navigation a:hover{
+    background-image:linear-gradient(to right, #86a372,rgb(209, 25, 19));
+    color: blanchedalmond;
+}
+
+#navigation a{
+    float:left;
+    text-decoration: none;
+    padding:20px 50px;
+    text-align: center;
+    color:#fffdfd;
+    border-radius: 2px;
+
+}
+
 h1{
     font-size: 50px;
      
@@ -97,6 +127,23 @@ h2{
     font-size: 18px;
     color: rgb(117, 106, 106);
     line-height: 1.5;
+}
+
+.recipe-div-web-info{
+    display: flex;
+    margin: 250px 50px 100px 60px;
+    padding-left:250px;
+    border:2px solid #f1eded;
+    box-shadow: 2px 2px 11px 2px #c2bfbf;
+    border-radius:20px;
+    
+
+}
+
+.web-info-all{
+padding:50px;
+text-align: center;
+
 }
 #footer{
     text-align: center;
